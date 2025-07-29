@@ -1,0 +1,126 @@
+/*body {
+    font-family: "Gill Sans", sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('hostelrepair/loginrepairpic.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('loginrepairtest.jpeg'); /* Update this path to match your project structure */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(225, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #00d2ff;
+}
+
+.forgot-password {
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #4facfe;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%;
+    }
+}
